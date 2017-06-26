@@ -66,8 +66,8 @@ elif [ -f "/data/magisk/magisk" ]; then RESETPROP="/data/magisk/magisk $RESETPRO
 elif [ -f "/magisk/.core/bin/resetprop" ]; then RESETPROP="/magisk/.core/bin/$RESETPROP"
 elif [ -f "/data/magisk/resetprop" ]; then RESETPROP="/data/magisk/$RESETPROP"; fi
 
-$RESETPROP "ro.build.fingerprint" "Xiaomi/sagit/sagit:7.1.1/NMF26X/V8.2.17.0.NCACNEC:user/release-keys"
-$RESETPROP "ro.bootimage.build.fingerprint" "Xiaomi/sagit/sagit:7.1.1/NMF26X/V8.2.17.0.NCACNEC:user/release-keys"
+$RESETPROP "ro.build.fingerprint" "ZUK/ham/Z1:7.1.2/NJH47B/51f0cc8dfe:userdebug/test-keys"
+$RESETPROP "ro.bootimage.build.fingerprint" "ZUK/ham/Z1:7.1.2/NJH47B/51f0cc8dfe:userdebug/test-keys"
 $RESETPROP "ro.build.type" "user"
 $RESETPROP "ro.build.tags" "release-keys"
 $RESETPROP "ro.build.selinux" "0"
